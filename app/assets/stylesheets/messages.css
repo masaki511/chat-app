@@ -1,0 +1,43 @@
+ .wrapper {
+  display: flex;
+}
+
+.side {
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+.side_head {
+  height: 100px;
+  padding: 0px 20px;
+}
+
+.side_body {
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0px 20px;
+}
+
+.main {
+  height: 100vh;
+  width: calc(100vw - 300px);
+  background-color: #FFFFFF;
+}
+
+.main_head {
+  height: 100px;
+  padding: 0px 40px;
+}
+
+.main_body {
+  height: calc(100vh - 100px - 90px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0px;
+}
+
+.main_foot {
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
